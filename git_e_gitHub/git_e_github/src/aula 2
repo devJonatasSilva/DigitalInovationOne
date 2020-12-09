@@ -1,0 +1,23 @@
+curso: guit/guithub 
+aula 2 (comandos basicos para um bom desempenho no terminal)
+
+obs.: todos os comandos do windows e linux possuem variancias (parametros que modificam a forma de como o prompt de comandos vai retornar os valores dos comandos inseridos).
+
+
+         comandos windos e linux
+
+======================================  					=========                                                  ======                                          =========================
+|                      descrição do comando	               |	    			|  Windows |                                                   | Linux |                                           |         Exemplo de uso               |
+======================================	     			=========                                                  ======                                          =========================
+
+mostra todos os arquivos e pastas do diretório atual   ---------------   dir                                                                 ls                                                    //  ls
+possibilita navegar pelos diretórios   ----------------------------------------   cd (change directory)                                      cd                                                   //  cd /nome da pasta ou caminho da pasta
+volta um diretório acima   -------------------------------------------------------   cd ..                                                              cd ..                                                // cd ..
+limpa a tela do terminal   --------------------------------------------------------   cls (clear screm)                                            clear ( ctrl + l )                                  //  digitar cls/clear ou ctrl+ l
+auto completar   --------------------------------------------------------------------   TAB                                                              
+cria um diretório   ------------------------------------------------------------------   mkdir                                                             mkdir                                               //  mkdir "nome da pasta a ser criada" / sudo mkdir "nome da pasta"
+cria um documento de texto e armazena na pasta atual   ---------   echo "texto" > "nome do documento".txt           ||                                                      //         ||
+deleta o conteudo de uma pasta   ------------------------------------------   del                                                                                                                         //  del "nome da pasta"
+remove uma pasta e todo o seu conteudo   ----------------------------   rmdir                                                                                                                      //  rmdir "nome da pasta" /s /q 
+remove uma pasta e todo o seu conteudo   ----------------------------                                                                         rm                                                   //  rm "nome da pasta" -rf (r = recursivo, f = forçar)
+

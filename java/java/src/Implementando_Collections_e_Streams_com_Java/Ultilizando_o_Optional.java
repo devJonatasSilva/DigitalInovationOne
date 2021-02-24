@@ -36,7 +36,7 @@ public class Ultilizando_o_Optional {
         Optional<String> optionalString = Optional.of("valor presente");
         
         System.out.println("valor opcional está presente");
-        optionalString.ifPresentOrElse(System.out.println, () -> System.out.println("não está presente"));
+        // optionalString.ifPresentOrElse(System.out.println, () -> System.out.println("não está presente"));
     }
     
 }

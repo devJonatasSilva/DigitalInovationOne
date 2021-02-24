@@ -3,3 +3,6 @@
 neste repositório, armazeno todos os arquivos gerados no meu processo de aprendizado dos cursos da plataforma Inovatio Digital One.,<br>
 <h3>Status</h3>
 :construction: em construção :construction:
+<h3>autor</h3>
+<p>Jonatas Silva</p>
+

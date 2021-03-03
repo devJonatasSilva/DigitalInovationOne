@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+	<head lang="pt-br">
+		<title>instagram</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content width="device-width, initial-scale=1.0">
+		
+		<style type="text/css">
+			body {
+			width: 100%;
+			min-height:  100vh;
+			background-color: rgb(243,243,243); 
+			margin: 0; 
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		.instagram_wrapper{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			width: 60%;
+			height: 100vh;  
+		}
+
+		.instagram_phone{
+			display: flex; 
+			align-content: center;
+			justify-content: center;
+			width: 50%;    
+		}
+		.instagram_phone img{
+			height: 43rem;    
+		}
+
+		.instagram_continue{
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			flex-direction: column;
+			width: 50%;
+			min-height: 34rem;
+		}
+
+		.grupo{
+			display: flex;
+			justify-content: space-between;
+			align-items:  center;
+			flex-direction: column;
+			background-color: #ffffff;
+			width: 80%;
+			padding: 1.3rem 0;
+			border: 1px lightgray solid;
+			border-radius: 5px;    
+		}
+
+		.profile_photo img{
+			height: 6rem;
+			border-radius: 50%;
+		}
+
+		.instagram_login{
+			background-color: #0095f6;
+			color: #ffffff;
+			padding: 8px;
+			border-radius: 4px;
+			text-decoration: none;
+		}
+		.instagram_logout{
+			color: #0095f6;
+			margin-top: 1rem;
+			text-decoration: none;    
+		}
+
+		.not_acount{
+			color: rgb(160,160,160);    
+		}
+
+		.link_blue{
+			color: #0095f6;
+		}
+
+		.get_the_app{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			padding: 1.3rem 0;
+		}
+
+		.get_app{
+			display: flex;
+			width: 100%;
+			justify-content:space-evenly;    
+			align-items: center;
+			padding: 1rem;
+		}
+		.app_download{
+			height: 3rem;
+			width: 10rem;
+			background-size: cover;
+		}
+
+		.imagens-download{
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly; /* espaço igual nos lados e no meio */
+			flex-direction: row;
+			width: 100%;
+			padding: 1rem;
+		}
+		
+		.imagens-download img {
+			max-width: 140px;
+			max-height: 80px;
+			cursor: pointer;
+		}
+		
+		.logo-google {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.logo-apple {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		
+		</style>
+	</head>
+	
+	<body>
+	
+		<div class="instagram_wrapper">
+			<div class="instagram_phone">
+				<img src="/home/jony/Documentos/repositorios/DigitalInovationOne/HTML5/homePage_instagram/public_html/imagens/png-transparent-smartphone.png" alt"="imagen de smartphone">
+			</div>
+			
+			<div class="instagram_continue">
+				<div class="grupo">
+					<img src="/home/jony/Documentos/repositorios/DigitalInovationOne/HTML5/homePage_instagram/public_html/imagens/instagram.png" class="instagram_logo" alt="logo do instagram">
+					<div class="profile_photo">
+						<img src="/home/jony/Documentos/repositorios/DigitalInovationOne/HTML5/homePage_instagram/public_html/imagens/minha cara.jpg" class="foto_de_perfil" alt="minha foto de perfil">
+					</div>
+					<a href="a" class="instagram_login">continue como Jony Smith</a>
+					<a href="a" class="instagram_logout">remover conta</a>
+				</div>
+				
+				<div class="grupo">
+					<p class="not_acount">não é Jony Smith?</p>
+					<p class="not_acount">
+						<span class="link_blue">alternar contas</span>
+						ou
+						<span class="link_blue">inscreva-se</span>
+					</p>
+				</div>
+				
+				<div class="download-app">
+					<p class="get_app">baixe o aplicativo</p>
+					<div class="imagens-download">
+						<img class="logo-google" src="/home/jony/Documentos/repositorios/DigitalInovationOne/HTML5/homePage_instagram/public_html/imagens/google.png" alt="icone do google play"><a href="https://play.google.com/store/apps/details?id=com.instagram.android"></img>
+						<img class="logo-apple" src="/home/jony/Documentos/repositorios/DigitalInovationOne/HTML5/homePage_instagram/public_html/imagens/apple.png" alt="icone do appleplay"><a href="https://apps.apple.com/br/app/instagram/id389801252"></img>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>	
+</html>

@@ -12,8 +12,8 @@ package interfaces_funcionais;
 public class FuncaoAltaOrdem {
     
     public static void main(String[] args){
-        Soma soma = (numero1, numero2) -> numero1 * numero2; 
-        System.out.println(realizarSoma(soma, 10,100));
+        Soma soma = (numero1, numero2) -> numero1 + numero2; 
+        System.out.println(realizarSoma(soma, 200,100));
     }
     public static int realizarSoma(Soma soma, int numero1, int numero2){
         return soma.somar(numero1, numero2);
